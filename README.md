@@ -1,20 +1,13 @@
 # Validador de Diplomas (React + Vite + Tailwind)
 
-## Rodar localmente
+## Como usar com GitHub + Vercel
+1) Faça upload de **todos** os arquivos desta pasta **incluindo a pasta `src/`** para seu repositório no GitHub.
+2) Na Vercel: *Add New → Project* → selecione o repositório.
+3) Framework: **Vite** · Build: `npm run build` · Output: `dist`.
+
+## Rodar localmente (opcional)
 ```bash
 npm install
 npm run dev
 ```
-Acesse o endereço informado (ex.: http://localhost:5173).
-
-## Build
-```bash
-npm run build
-npm run preview
-```
-
-## Deploy (Vercel)
-1. Crie um novo repositório no GitHub e suba este projeto.
-2. No painel da Vercel, clique em *Add New Project* → *Import Git Repository*.
-3. Build Command: `npm run build` — Output: `dist` (detectado automaticamente).
-4. Conclua o deploy e pegue a URL gerada.
+Abra o endereço informado (ex.: http://localhost:5173).
